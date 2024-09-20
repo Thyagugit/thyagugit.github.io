@@ -1,0 +1,79 @@
+.task{
+
+    border : 5px solid green;
+    cursor : pointer;
+    margin: 10px;
+    padding: 10px;
+    text-align : center;
+}
+
+
+
+
+
+/* ----------------------------------------------------------- */
+
+
+* {
+
+    box-sizing: border-box;
+    margin : 0;
+    padding : 0;
+}
+
+
+#addBtn,#inputBox {
+     margin :0 0.2rem;
+     padding : 0.5rem;
+}
+
+.container{
+
+    min-height: 100vh;
+    overflow-x: hidden;
+    padding : 1rem;
+    width: 100vw;
+}
+
+
+
+.completed{
+
+    border-color : tomato;
+    opacity: 0.3;
+    text-decoration-line : line-through;
+
+
+}
+
+#inputBox {
+
+
+     /* border : none; */
+     border : 20px solid light black;
+    border-radius: 0.5 rem;
+    font-size: 1.2 rem;
+    outline: none; 
+     transition: 0.55;
+}
+
+
+.inputContainer
+{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#inputBox :focus{
+
+
+    border-color:hotpink;
+
+} 
+
+
+
+
